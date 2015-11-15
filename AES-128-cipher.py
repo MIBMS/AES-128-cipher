@@ -1,3 +1,9 @@
+#!/usr/bin/env python2.7
+
+'''
+AES-128-cipher.py: Encrypts and decrypts files using AES-128 in either CBC or CTR mode
+'''
+
 from Crypto.Cipher import AES
 from Crypto.Util import Counter
 from Crypto import Random
